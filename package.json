@@ -1,6 +1,6 @@
 {
   "name": "@lucas.debeterco/eslint-config",
-  "version": "1.0.2",
+  "version": "0.0.0-development",
   "description": "ESLint configuration used by Lucas Debeterco.",
   "main": "index.js",
   "author": "",
@@ -30,5 +30,15 @@
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-tailwindcss": "^3.14.0",
     "prettier": "^3.2.2"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasdebeterco/eslint-config-lucasdebeterco.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^23.0.0"
   }
 }
