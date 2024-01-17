@@ -6,7 +6,8 @@ module.exports = {
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "plugin:tailwindcss/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -15,9 +16,11 @@ module.exports = {
     },
     "plugins": [
         "@typescript-eslint",
-        "react"
+        "react",
+        "simple-import-sort"
     ],
     "rules": {
+        "simple-import-sort/imports": "error",
         "indent": [
             "error",
             4
@@ -35,9 +38,15 @@ module.exports = {
         "react/react-in-jsx-scope": "off",
         "react/jsx-uses-react": "off",
         "react/jsx-key": "off",
-        "jsx-quotes": ["error", "prefer-single"],
-        "no-tabs": "error"
+        "no-tabs": "error",
+        "jsx-quotes": ["error", "prefer-double"],
     },
+    overrides: [
+        {
+            files: ['.ts', '.tsx', '*.js'],
+            parser: '@typescript-eslint/parser',
+        },
+    ],
     "ignorePatterns": [
         "node_modules"
     ]
