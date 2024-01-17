@@ -32,13 +32,20 @@
     "prettier": "^3.2.2"
   },
   "scripts": {
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "commit": " git-cz"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/lucasdebeterco/eslint-config-lucasdebeterco.git"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "semantic-release": "^23.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
