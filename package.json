@@ -37,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lucasdebeterco/eslint-config-lucasdebeterco.git"
+    "url": "git+https://github.com/lucasdebeterco/eslint-config-lucasdebeterco.git"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
