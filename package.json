@@ -1,6 +1,6 @@
 {
   "name": "@lucas.debeterco/eslint-config",
-  "version": "0.0.0-development",
+  "version": "1.0",
   "description": "ESLint configuration used by Lucas Debeterco.",
   "main": "index.js",
   "author": "",
@@ -32,7 +32,6 @@
     "prettier": "^3.2.2"
   },
   "scripts": {
-    "semantic-release": "semantic-release",
     "commit": " git-cz"
   },
   "repository": {
@@ -40,8 +39,7 @@
     "url": "git+https://github.com/lucasdebeterco/eslint-config-lucasdebeterco.git"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0",
-    "semantic-release": "^23.0.0"
+    "cz-conventional-changelog": "^3.3.0"
   },
   "config": {
     "commitizen": {
