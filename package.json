@@ -1,6 +1,6 @@
 {
   "name": "@lucas.debeterco/eslint-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESLint configuration used by Lucas Debeterco.",
   "main": "index.js",
   "author": "",
